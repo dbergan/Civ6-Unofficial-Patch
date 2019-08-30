@@ -20,7 +20,7 @@
     <AssociationData><![CDATA[<Associations />]]></AssociationData>
     <AssemblyName>DB - Unofficial Patch</AssemblyName>
     <RootNamespace>DB - Unofficial Patch</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GameDataEarly"><Properties><LoadOrder>1</LoadOrder></Properties><File>GameDataEarly.sql</File></UpdateDatabase><UpdateText id="LOC"><Properties><LoadOrder>1</LoadOrder></Properties><File>LOC.sql</File></UpdateText><UpdateDatabase id="GameDateLate"><Properties><LoadOrder>99999</LoadOrder></Properties><File>GameDataLate.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="GameDataEarly"><Properties><LoadOrder>102</LoadOrder></Properties><File>GameDataEarly.sql</File></UpdateDatabase><UpdateText id="LOC"><Properties><LoadOrder>102</LoadOrder></Properties><File>LOC.sql</File></UpdateText><UpdateDatabase id="GameDateLate"><Properties><LoadOrder>9999999</LoadOrder></Properties><File>GameDataLate.sql</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>

@@ -21,3 +21,4 @@ INSERT INTO Improvement_ValidResources (ImprovementType, ResourceType, MustRemov
 -- Allow IMPROVEMENT_ALCAZAR on resources
 INSERT INTO Improvement_ValidResources (ImprovementType, ResourceType, MustRemoveFeature)
 	SELECT 'IMPROVEMENT_ALCAZAR', ResourceType, 0 FROM Resources ;
+
