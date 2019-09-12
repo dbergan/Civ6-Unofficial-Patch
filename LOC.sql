@@ -14,12 +14,9 @@ INSERT OR REPLACE INTO LocalizedText
 ('LOC_IMPROVEMENT_ALCAZAR_DESCRIPTION', 'Alcazars give an occupying unit +4 [ICON_Strength] Combat Strength on defense, and 2 turns of fortification (an additional +6 [ICON_Strength] Combat Strength). Provides +2 [ICON_Culture] Culture. Builders can construct Alcazars in friendly or neutral territory, but only on a featureless land tile. Cannot be built next to another Alcazar.[NEWLINE][NEWLINE]Can be built on resources.{LOC_UP_LABEL}', 'en_US'),
 ('LOC_IMPROVEMENT_ALCAZAR_EXPANSION2_DESCRIPTION', 'Alcazars give an occupying unit +4 [ICON_Strength] Combat Strength on defense, and 2 turns of fortification (an additional +6 [ICON_Strength] Combat Strength). Provides +2 [ICON_Culture] Culture, [ICON_SCIENCE] Science equal to 50% of the tile''s Appeal, and [ICON_TOURISM] Tourism after researching Flight. Builders can construct Alcazars in friendly or neutral territory, but only on a featureless land tile. Cannot be built next to another Alcazar.[NEWLINE][NEWLINE]Can be built on resources.{LOC_UP_LABEL}', 'en_US'),
 
-
--- Fix drone
-('LOC_UNIT_DRONE_DESCRIPTION', 'Atomic era support unit. Adds +1 [ICON_Range] Range to adjacent Siege units. Adds +5 [ICON_Bombard] Bombard Strength to adjacent Modern era and later siege units. Ignores terrain costs.{LOC_UP_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_STR_FROM_DRONE_NAME', 'Adjacent Drone Combat{LOC_UP_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_STR_FROM_DRONE_DESCRIPTION', 'When next to a Drone, Modern era and later Siege units receive +5 [ICON_Bombard] Bombard Strength{LOC_UP_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_STR_FROM_DRONE_COMBAT_DESCRIPTION', '+{1_Value} Drone{LOC_UP_LABEL}', 'en_US'),
+-- Fix Observation Balloon, Drone
+('LOC_UNIT_DRONE_DESCRIPTION', 'Atomic era support unit. Adds +1 [ICON_Range] Range to Siege units within 1 tile. Adds +5 [ICON_Bombard] Bombard Strength to Modern era or later Siege units within 1 tile. Ignores terrain costs.{LOC_UP_LABEL}', 'en_US'),
+('LOC_UNIT_OBSERVATION_BALLOON_DESCRIPTION', 'Modern era support unit. Adds +1 [ICON_Range] Range to Siege units within 1 tile. Ignores terrain costs.{LOC_UP_LABEL}', 'en_US'),
 
 
 -- Fix Meenakshi temple
