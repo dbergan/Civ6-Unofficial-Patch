@@ -1,6 +1,8 @@
+-- Fix Information Age great admiral sea movement
+UPDATE ModifierArguments SET Name = 'AbilityType' WHERE ModifierId = 'GREATPERSON_MOVEMENT_AOE_INFORMATION_SEA' AND Name = 'ModifierId' ;
+
 -- Fix Barding combat preview
 UPDATE ModifierStrings SET Text = '+{1_AMOUNT} {LOC_PROMOTION_BARDING_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}{LOC_UP_LABEL}' WHERE ModifierId = 'TOP_COVER_DEFENSE_BONUS_VS_RANGED' AND Context = 'Preview' ;
-
 
 -- Fix Interceptor combat preview
 UPDATE ModifierStrings SET Text = '+{1_AMOUNT} {LOC_PROMOTION_INTERCEPTOR_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}{LOC_UP_LABEL}' WHERE ModifierId = 'INTERCEPTOR_BONUS_VS_BOMBERS' AND Context = 'Preview' ;
