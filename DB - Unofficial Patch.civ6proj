@@ -7,7 +7,8 @@
     <ProjectGuid>2c1b48c4-31aa-4afc-a7e2-06925c203bef</ProjectGuid>
     <ModVersion>1</ModVersion>
     <Teaser>Fixing things Firaxis missed</Teaser>
-    <Description>Fixes:[NEWLINE][NEWLINE]- Barding promotion combat preview[NEWLINE]- Interceptor promotion combat preview[NEWLINE]- Meenakshi Temple combat and movement bonuses[NEWLINE]- Military improvements not being able to be built on resources (e.g cannot build a Fort on wheat)</Description>
+    <Description>Fixes:[NEWLINE][NEWLINE]- Barding promotion combat preview[NEWLINE]- Interceptor promotion combat preview[NEWLINE]- Military improvements not being able to be built on resources (e.g cannot build a Fort on wheat)[NEWLINE]- Remove Drone and Observation Balloon movement costs on terrain (they fly like helicopters)[NEWLINE]- Meenakshi Temple: guru giving combat and movement bonuses[NEWLINE][NEWLINE]If you have a suggestion for this mod, please show me here:
+https://github.com/dbergan/Civ6-Unofficial-Patch[NEWLINE][NEWLINE]I also highly recommend the companion mod that explains many other "quirks" in Civ6:[NEWLINE]Better Rulebook</Description>
     <Authors>DB</Authors>
     <SpecialThanks>
     </SpecialThanks>
