@@ -22,9 +22,9 @@ INSERT OR REPLACE INTO LocalizedText
 -- Fix Meenakshi temple
 ('LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION', 'Grants 2 Gurus. Gurus are 30% cheaper to purchase. Religious units adjacent to a Guru receive +5 [ICON_Religion] Religious Strength in Theological Combat and +1 [ICON_Movement] Movement. (Another Guru does not provide additional strength or movement.) Must be built adjacent to a Holy Site and you must have founded a Religion.{LOC_UP_LABEL}', 'en_US'),
 ('LOC_DB_ABILITY_ENHANCE_COMBAT_WHEN_ADJ_GURU_NAME', 'Meenakshi Adjacent Guru Combat{LOC_UP_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_ENHANCE_COMBAT_WHEN_ADJ_GURU_DESCRIPTION', 'When next to a Guru, religious units receive +5 [ICON_Religion] Religious Strength{LOC_UP_LABEL}', 'en_US'),
+('LOC_DB_ABILITY_ENHANCE_COMBAT_WHEN_ADJ_GURU_DESCRIPTION', 'When next to a Guru, +5 [ICON_Religion] Religious Strength{LOC_UP_LABEL}', 'en_US'),
 ('LOC_DB_ABILITY_ENHANCE_COMBAT_WHEN_ADJ_GURU_COMBAT_DESCRIPTION', '+{1_Value} Meenakshi Temple{LOC_UP_LABEL}', 'en_US'),
 
 ('LOC_DB_ABILITY_ENHANCE_MOVEMENT_WHEN_ADJ_GURU_NAME', 'Meenakshi Adjacent Guru Movement{LOC_UP_LABEL}', 'en_US'),
-('LOC_DB_ABILITY_ENHANCE_MOVEMENT_WHEN_ADJ_GURU_DESCRIPTION', 'When next to a Guru, religious units receive +1 [ICON_Movement] Movement{LOC_UP_LABEL}', 'en_US')
+('LOC_DB_ABILITY_ENHANCE_MOVEMENT_WHEN_ADJ_GURU_DESCRIPTION', 'When next to a Guru, +1 [ICON_Movement] Movement{LOC_UP_LABEL}', 'en_US')
 ;
